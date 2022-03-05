@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML CLASS</title>
+    <title>HTML & CSS CLASS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </head>
 
   <body>
+    <!-- INTERNAL CSS -->
+    <!-- <style>
+      div {
+        background-color: red;
+      }
+    </style> -->
+
     <!-- 
     <h1>Hello World !</h1>
     <h2>dsdshj</h2>
@@ -119,17 +138,18 @@ Email
 
     <!-- FORM -->
 
-    <form action="">
-      <!-- <p>Name</p> -->
-      <label for="username">Name</label>
+    <!-- <form action=""> -->
+    <!-- <p>Name</p> -->
+
+    <!-- <label for="username">Name</label>
       <input
         type="text"
         minlength="5"
         placeholder="Enter your name"
         name="username"
-      />
-      <!-- <p>password</p> -->
-      <label for="">password </label>
+      /> -->
+    <!-- <p>password</p> -->
+    <!-- <label for="">password </label>
       <input type="password" name="" id="" required />
       <br />
       <p>Comment Box</p>
@@ -162,9 +182,9 @@ Email
         <input type="checkbox" name="service" value="lastfm" /> Last.fm
         <input type="checkbox" name="service" value="spotify" /> Spotify
       </p>
-
-      <!-- DropDown -->
-
+ -->
+    <!-- DropDown -->
+    <!-- 
       <p>What device do you listen to music on?</p>
 
       <select name="devices">
@@ -172,28 +192,28 @@ Email
         <option value="radio" selected>India</option>
         <option value="computer">Srilanka</option>
       </select>
-
-      <!-- Multiple DropDown -->
-      <select name="instruments" size="4" multiple="multiple">
+ -->
+    <!-- Multiple DropDown -->
+    <!-- <select name="instruments" size="4" multiple="multiple">
         <option value="guitar" selected="selected">Guitar</option>
         <option value="drums">Drums</option>
         <option value="keyboard" selected="selected">Keyboard</option>
         <option value="bass">Bass</option>
       </select>
-      <br />
+      <br /> -->
 
-      <!-- File -->
-      <p>Upload File</p>
+    <!-- File -->
+    <!-- <p>Upload File</p>
       <input type="file" name="" id="" />
-    </form>
+    </form> -->
 
     <!-- Submit -->
-    <p>Submit</p>
-    <input type="submit" name="" id="" />
+    <!-- <p>Submit</p> -->
+    <!-- <input type="submit" name="" id="" /> -->
 
     <!-- Legend -->
 
-    <fieldset>
+    <!-- <fieldset>
       <legend>Contact details</legend>
       <label
         >Email:<br />
@@ -207,25 +227,25 @@ Email
         >Telephone:<br />
         <input type="text" name="telephone"
       /></label>
-    </fieldset>
+    </fieldset> -->
 
     <!-- Email -->
-
+    <!-- 
     <label for="">Email</label>
-    <input type="email" name="" id="" placeholder="Enter your email" />
+    <input type="email" name="" id="" placeholder="Enter your email" /> -->
 
     <!-- Button -->
 
-    <button>
+    <!-- <button>
       <img src="button.jpg" alt="" />
     </button>
 
     <a href="my2ndpage.html">
       <img src="clickme.png" alt="" />
-    </a>
+    </a> -->
 
     <!-- MAP -->
-    <iframe
+    <!-- <iframe
       width="450"
       height="350"
       src="http://maps.google.co.uk/maps?q=moma+new+york
@@ -240,13 +260,13 @@ Email
       style="border: 0"
       allowfullscreen=""
       loading="lazy"
-    ></iframe>
+    ></iframe> -->
 
     <!-- video -->
 
     <!-- <video src="video.mp4"></video> -->
 
-    <video src="video.mp4" width="400" height="300" controls>
+    <!-- <video src="video.mp4" width="400" height="300" controls>
       <p>A video of a puppy playing in the snow</p>
     </video>
 
@@ -258,8 +278,98 @@ Email
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-    ></iframe>
+    ></iframe> -->
     <!-- audio -->
-    <audio src=""></audio>
+    <!-- <audio src=""></audio> -->
+
+    <!-- LEARNING CSS & ANIMATIONS-->
+    <!-- 
+Internal
+External
+Inline -->
+
+    <!-- ctrl + ? -->
+
+    <!-- DIV AND SPAN          -->
+
+    <!-- <div>
+      <span>Abcd</span>
+      <span>ddsa</span>
+      <div>Hello World !</div>
+      <div>Div2</div>
+    </div> -->
+
+    <!-- CSS -->
+
+    <!-- class -->
+
+<header>
+
+</header>
+
+<section>
+  
+</section>
+
+    <div class="my-div">
+      <p class="animate__fadeInDown">LEARNING CSS</p>
+      <a href="">Click me</a>
+    </div>
+
+    <div class="my-div2">
+      <p>ID AND CLASS</p>
+      <a href="">Click me</a>
+    </div>
+
+    <!-- id -->
+
+    <!-- Should be unique -->
+    <div id="my-div">LEARNING CSS</div>
+
+    <div class="box">
+      <div class="box2">
+        <p class="box-p">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad obcaecati
+          doloribus velit consectetur esse architecto perferendis cum aliquam
+          voluptatem sequi explicabo maiores et minima, qui corporis beatae amet
+          iste ex.
+        </p>
+      </div>
+    </div>
+
+    <div class="new-box">
+      BOX <br />
+      <a href="http://google.com" target="_blank" class="click-me">Click Me</a>
+      <input type="text" placeholder="Enter your name" name="" id="my-inp" />
+    </div>
+    <br />
+    <br />
+    <!-- POSITION -->
+    <div class="red">
+      <div class="yellow"></div>
+    </div>
+
+    <!-- <div class="green">
+      <div class="orange"></div>
+    </div> -->
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- IMAGES -->
+    <div class="img"></div>
   </body>
+
+  <br /><br />
+
+  <div class="div1">
+    <div class="div2">
+      <div class="my-a-div">
+
+
+        <a href="">Home</a>
+      </div>
+    </div>
+  </div>
 </html>

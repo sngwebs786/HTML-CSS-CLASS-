@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+.my-div{
+    background-color: rgb(96, 96, 238);
+}
+
+#my-div{
+    /* background-color: #1B86B6; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 43%, rgba(0,212,255,1) 100%);
+height: 500px;
+}
+
+div{
+    color: orange;
+}
+
+
+.anchor{
+    color: #000;
+}
+
+
+.my-div a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+
+/* UNIVERSAL SELECTOR */
+
+/* *{
+    background-color: purple;
+} */
+
+/* body{
+    background-color: red;
+} */
+
+.box{
+    background-color: yellow;
+    height: 500px;
+    display: inline-block;
+    width: 300px;
+    border: red 4px dashed;
+    border-radius: 40px;
+}
+
+.box2{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    /* opacity: 0.7; */
+}
+
+.box-p{
+    font-size: 20px;
+    color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration:underline;
+    /* text-align: justify; */
+}
+
+.box-p:first-letter{
+    font-size: 50px;
+}
+
+.new-box{
+    height: 400px;
+    width: 400px;
+    background-color: #f74e6a;
+    box-shadow: 10px 5px 10px 5px;
+    display: inline-block;
+}
+
+.click-me{
+    font-size: 30px;
+    color: rgb(255, 217, 0) !important;
+}
+
+.click-me:visited{
+    color: black !important;
+}
+
+#my-inp{
+    background-color: orange;
+}
+
+#my-inp:hover{
+    background-color: red;
+}
+
+#my-inp:focus{
+    background-color: green;
+}
+
+#my-inp:active{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    margin-left: 200px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+
+.green{
+    background-color: green;
+    height: 400px;
+    width: 600px;
+    margin-left: 200px;
+    /* z-index: 1; */
+    float: right;
+    /* position: fixed; */
+}
+
+.orange{
+    /* z-index: -1; */
+
+    background-color: orange;
+    height: 300px;
+    width: 500px;
+    /* position: absolute; */
+    /* left: 100px; */
+}
+
+.img{
+    height: 500px;
+    width: 900px;
+    background-image: url('email.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.div1{
+    height: 500px;
+    width: 500px;
+    background-color: #f74e6a;
+    margin-left: 40%;
+    padding: 40px;
+}
+
+
+.div2{
+    height: 500px;
+    width: 450px;
+    background-color: #470d16;
+    /* padding:40px; */
+    /* margin-left: 40px; */
+}
+
+.div2 a{
+    height: 30px;
+    width: 50px;
+    background-color: grey;
+    padding: 5px;
+    /* margin: 20px; */
+    /* margin-top: 100px !important; */
+}
+
+.my-a-div{
+    /* margin: 40px; */
+    margin-left: 50px;
+    /* margin-top: 40px; */
+}
+
+.animate__fadeInDown{
+      animation-duration: 1s;
+}
